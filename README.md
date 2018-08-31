@@ -1,5 +1,3 @@
-# react-native-console-tools
-
 ![logo](docs/images/rnct-logo.png)
 
 Simple console commands to help you debug your React-Native application
@@ -71,6 +69,12 @@ You can call any method of `AsyncStorage` from `RNCT.asyncStorage`, plus:
 #### `RNCT.asyncStorage.logAll`
 
 It will log all saved items in the async storage.
+
+usage:
+
+```jsx
+RNCT.asyncStorage.logAll()
+```
 
 ## Thanks to
 
