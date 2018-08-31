@@ -1,0 +1,36 @@
+{
+    "name": "react-native-console-tools",
+    "version": "0.0.1",
+    "description": "Simple console commands to help you debug your React-Native application.",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "ios": "react-native run-ios"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/benhurott/react-native-console-tools.git"
+    },
+    "author": "Ben-hur Santos Ott",
+    "license": "MIT",
+    "keywords": [
+        "console",
+        "tools",
+        "react",
+        "native"
+    ],
+    "bugs": {
+        "url": "https://github.com/benhurott/react-native-console-tools/issues"
+    },
+    "homepage": "https://github.com/benhurott/react-native-console-tools#readme",
+    "dependencies": {
+        "react": "16.3.1",
+        "react-native": "0.55.4"
+    },
+    "devDependencies": {
+        "babel-jest": "23.4.2",
+        "babel-preset-react-native": "4.0.0",
+        "jest": "23.5.0",
+        "react-test-renderer": "16.3.1"
+    }
+}
